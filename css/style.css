@@ -1,0 +1,123 @@
+body{
+		  background: url(../images/back1.jpg);
+		  background-repeat: no-repeat;
+		  background-size: 100% 100%;
+		}
+	#taitan{
+		 position: relative;
+		 left: 20%;
+	}
+	#para{
+		
+		position: relative;
+		left: 10%; 
+		background-color:#ffffff;
+		width: 400px;
+		font: bold;
+		
+	}
+	#header {
+		background: url(images/bg-transparent1.png) repeat;
+		margin: 0;
+		min-height: 60px;
+		padding: 0;
+		width: auto;}
+	#header div {
+		margin: 0 auto;
+		max-width: 940px;
+		min-height: 60px;
+		padding: 0 10px;
+	}
+	}
+	#header div {
+		display: inline;
+		float: left;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		width: auto;}
+	#header div ul {		
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		width: auto;
+	}
+	#header div ul li {
+		float: left;
+		margin: 0;
+		padding: 0;
+		width: auto;
+	}
+	#header div ul li a {
+		color: #ffffff;
+		display: block;
+		font-family: Arial;
+		font-size: 18px;
+		font-weight: normal;
+		line-height: 59px;
+		margin: 0;
+		min-height: 60px;
+		padding: 0 24px;
+	    *padding: 0 23px; /* Needed for IE8 and old versions */
+		text-align: center;
+		text-transform: uppercase;
+		width: auto;
+		text-decoration: none;
+	}
+	#header div ul li a:hover {
+		background-color: #000000;
+		color: #ffffff;
+	}
+	#header div ul li.selected a {
+		
+		color: #ffffff;
+	}
+	#header div ul li.menu {
+		position: relative;
+	}
+	#header div ul li.menu ul {
+		display: block;
+		left: -99999px;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top: 60px;
+		width: 142px;
+		z-index: 50;
+	}
+	#header div ul li.menu:hover ul.primary {
+		left: 31px;
+	}
+	#header div ul li.menu ul.primary.selected {
+		left: 31px;
+	}
+	#header div ul li.menu:hover ul.secondary {
+		left: -20px;
+	}
+	#header div ul li.menu ul.secondary.selected {
+		left: -20px;
+	}
+	#header div ul li.menu ul li {
+		margin: 0;
+		padding: 0;
+		width: auto;
+	}
+	#header div ul li.menu ul li a {
+		background-color: #000000;
+		color: #ffffff;
+		display: block;
+		font-family: Arial;
+		font-size: 18px;
+		font-weight: normal;
+		line-height: 60px;
+		margin: 0;
+		min-height: 60px;
+		padding: 0 10px;
+		text-align: center;
+		text-transform: uppercase;
+		width: auto;
+	}
+	#header div ul li.menu ul.primary.selected li a, #header div ul li.menu ul.secondary.selected li a {
+		background-color: #000000;
+		color: #a3a3a3;}
